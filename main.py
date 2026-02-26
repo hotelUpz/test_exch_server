@@ -91,3 +91,10 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+# chmod 600 ssh_key.txt
+# eval "$(ssh-agent -s)"
+# ssh-add ssh_key.txt
+# ssh -T git@github.com
